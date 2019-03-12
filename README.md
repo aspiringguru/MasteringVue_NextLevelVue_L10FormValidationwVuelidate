@@ -62,3 +62,30 @@ To run the mock database
 | Progress Bar: Global and Per-Route Guards | [Starting Code](https://github.com/Code-Pop/real-world-vue/releases/tag/progress-bar-start)        | [Finished Code](https://github.com/Code-Pop/real-world-vue/releases/tag/progress-bar-global-guard)                   |
 | Completing our Progress Bar               | [Starting Code](https://github.com/Code-Pop/real-world-vue/releases/tag/progress-bar-global-guard) | [Finished Code](https://github.com/Code-Pop/real-world-vue/releases/tag/progress-bar-finished)                       |
 | Reusable Form Components: BaseInput       | [Starting Code](https://github.com/Code-Pop/real-world-vue/releases/tag/error-handling-finish)     | [Finished Code](https://github.com/Code-Pop/real-world-vue/releases/tag/BaseInput-finish)                            |
+
+### install and work notes
+
+```
+
+npm install -g json-server
+
+json-server --watch db.json
+#above = no delay
+json-server -d 1500 --watch db.json
+#above = 1.5 second delay
+
+npm install --save nprogress
+
+npm install vuelidate --save
+
+npm install
+yarn serve
+
+https://www.vuemastery.com/courses/next-level-vue/form-validation-with-vuelidate
+https://github.com/vuelidate/vuelidate
+
+
+
+
+
+```
